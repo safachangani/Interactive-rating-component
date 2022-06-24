@@ -1,0 +1,111 @@
+
+.center-box{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:99;
+    margin:auto;
+    height:300px;
+    width:300px;
+    background:rgb(21 29 39);
+    border-radius: 20px;
+    padding: 25px;
+  }
+  .btn{
+  
+    height: 42px;
+    width: 42px;
+    
+    border-radius: 50%;
+    background-color:#262b30;
+    border: none;
+    margin-right: 14px;
+    cursor: pointer;
+  
+  }
+  .fa-solid, .fas{
+    color: hsl(25, 97%, 53%);
+  }
+  #text{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    font-weight: lighter;
+    letter-spacing: 1px;
+   
+  }
+  .para{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .submit{
+    margin-left: 16px;
+    margin-top: 15px;
+    width: 260px;
+    height: 45px;
+    border-radius: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+  }
+  
+  .submit:hover{
+    background-color: white;   
+    color: hsl(25, 97%, 53%);
+  }
+  .dis-btn{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background-color:#262b30;
+    border: none;
+    margin-right: 14px;
+  }
+  .btn:hover{ 
+    background-color: hsl(25, 97%, 53%);;
+    color: white;
+  }
+  .btn:active{
+    background-color: gray;
+    color: white;
+  }
+  .image{
+    padding-left:65px;
+    padding-top: 8px;
+  }
+  #field{
+    pointer-events: none;
+    height: 25px;
+    width: 152px;
+    align-items: center;
+    color: hsl(25, 97%, 53%);
+    margin-left: 61px;
+    padding-top: 6px;
+    padding-left: 15px;
+    margin-top: 16px;
+    background-color: #1e252d;
+    border: none;
+    border-radius: 30px;
+}
+  
+  .thankyou{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    margin-left: 80px;
+    margin-top: 18px;
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+.hidden{
+  display: none;
+}
